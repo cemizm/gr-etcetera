@@ -18,10 +18,13 @@
 #
 
 category: common
-configuredir: build
 depends:
 - gnuradio
 description: Simple frequency scanner for GNU Radio
-gitbranch: master
 inherit: empty
+
+make: 'make'
+install: 'make install'
+
+gitbranch: master
 source: git+https://git.zx2c4.com/gr-scan
