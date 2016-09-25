@@ -20,7 +20,7 @@
 category: dsplib
 depends:
 - gnuradio
-- uhd
+# - uhd
 - curl
 - git
 description: GSM frequency scanner and clock offset calculator
