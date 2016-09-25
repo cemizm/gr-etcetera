@@ -22,6 +22,9 @@ depends:
 - gnuradio
 description: Simple frequency scanner for GNU Radio
 inherit: empty
+configuredir: .
+makedir: .
+installdir: .
 
 make: 'make'
 install: 'make install'
