@@ -26,8 +26,8 @@ configuredir: .
 makedir: .
 installdir: .
 
-make: 'prefix=$prefix make'
-install: 'prefix=$prefix make install'
+make: 'prefix=$PYBOMBS_PREFIX make'
+install: 'prefix=$PYBOMBS_PREFIX make install'
 
 gitbranch: master
 source: git+https://git.zx2c4.com/gr-scan
