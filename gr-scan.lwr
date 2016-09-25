@@ -26,8 +26,8 @@ configuredir: .
 makedir: .
 installdir: .
 
-make: 'make'
-install: 'make install'
+make: 'make prefix=$prefix'
+install: 'make install prefix=$prefix'
 
 gitbranch: master
 source: git+https://git.zx2c4.com/gr-scan
